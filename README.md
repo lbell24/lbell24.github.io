@@ -1,5 +1,8 @@
 # lbell24.github.io
 
-loading...
 
-Here to do something, not for something to do
+"Not here for something to do, here to do something"
+
+"Legs feed the wolf"
+
+"Greatness is a lot of small things done well"
