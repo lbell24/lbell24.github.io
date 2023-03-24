@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<title>New User Registration</title>
+</head>
+
+<body>
+
+<h1>New User Registration</h1>
+	
+	<form>
+	
+	<label for "firstName">First Name:</label>
+	<input type = "text" id = "firstName" name = "firstName" required minlength = "1"  maxlength = "32"><br>
+	<label for "lastName">Last Name:</label>
+	<input type = "text" id = "lastName" name = "lastName" required minlength = "1" maxlength = "32"><br>
+	<label for "password">Password:</label>
+	<input type = "password" id = "password" name = "password" required><br>
+	<label for "email">Email:</label>
+	<input type = "email" id = "email" name = "email" required><br>
+	<label for "telephone">Telephone Number:</label>
+	<input type = "tel" id = "telephone" name = "telephone"><br>
+	<label for "homepage">Homepage URL:</label>
+	<input type "url" id = "homepage" name = "homepage"><br>
+	<label for="birthMonth">Birth Month:</label>
+<select id="birthMonth" name="birthMonth">
+    <option value="January">January</option>
+    <option value="February">February</option>
+    <option value="March">March</option>
+    <option value="April">April</option>
+    <option value="May">May</option>
+    <option value="June">June</option>
+    <option value="July">July</option>
+    <option value="August">August</option>
+    <option value="September">September</option>
+    <option value="October">October</option>
+    <option value="November">November</option>
+    <option value="December">December</option>
+  </select><br>
+	<label for "birthYear">Birth Year:</label>
+	<input type = "number" id = "birthYear" name = "birthYear"<br>
+	<label for "emailPermission">Can we email you?</label>
+	<input type = "checkbox" id = "emailPermission" name = "emailPermission"><br>
+	<label>Can we text you?</label>
+	<input type = "radio" id = "textPermissionYes" name = "textPermission" value = "yes">
+	<label for "textPermissionYes">Yes</label>
+	<input type ="radio" id = "textPermissionNo" name = "textPermission" value = "no">
+	<label for "textPermissionNo">No</label><br>
+	<label>Do you like our product?</label>
+	<input type="radio" id="productLike1" name="productLike" value="1">
+	<label for="productLike1">1 - Don't Like It</label>
+	<input type="radio" id="productLike2" name="productLike" value="2">
+	<label for="productLike2">2</label>
+	<input type="radio" id="productLike3" name="productLike" value="3">
+	<label for="productLike3">3</label>
+	<input type="radio" id="productLike4" name="productLike" value="4">
+	<label for="productLike4">4</label>
+	<input type="radio" id="productLike5" name="productLike" value="5">
+	<label for="productLike5">5 - Love It</label><br>
+
+  <button type="reset">Clear</button>
+  <input type="submit" value="Submit">
+	
+	</form>
+	
+
+</body>
+
+
+</html>
